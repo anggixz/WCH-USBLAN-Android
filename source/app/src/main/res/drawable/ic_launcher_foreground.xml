@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 5 Gold Pins at top of RJ-45 plug -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M38,23 h3.2 v6.5 h-3.2 z M44.8,23 h3.2 v6.5 h-3.2 z M51.6,23 h3.2 v6.5 h-3.2 z M58.4,23 h3.2 v6.5 h-3.2 z M65.2,23 h3.2 v6.5 h-3.2 z" />
+
+    <!-- Drop shadow behind RJ45 plug -->
+    <path
+        android:fillColor="#25000000"
+        android:pathData="M35,32 h38 a4,4 0 0 1 4,4 v26 a4,4 0 0 1 -4,4 h-38 a4,4 0 0 1 -4,-4 v-26 a4,4 0 0 1 4,-4 z" />
+
+    <!-- RJ45 Plug Body (White card with rounded corners) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M37,28 h34 a4,4 0 0 1 4,4 v26 a4,4 0 0 1 -4,4 h-34 a4,4 0 0 1 -4,-4 v-26 a4,4 0 0 1 4,-4 z" />
+
+    <!-- Left LED: Green (Link) -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M37.5,33.5 a2,2 0 1 0 0,-0.01 z" />
+
+    <!-- Right LED: Amber (Activity) -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M68.5,33.5 a2,2 0 1 0 0,-0.01 z" />
+
+    <!-- USB Trident Symbol inside plug body (#2563EB) -->
+    <!-- Central stem -->
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M53,36 h2 v18 h-2 z" />
+    <!-- Center Arrowhead -->
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M54,32 L50.5,36.5 h7 z" />
+    <!-- Left Branch & Square -->
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M53,47 L47,43.5 v-2.5 h2 v2 L53,46 z M45,39 h4 v4 h-4 z" />
+    <!-- Right Branch & Circle -->
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M55,49 L61,45.5 v-2.5 h-2 v2 L55,48 z" />
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M60,42 a2.5,2.5 0 1 0 0,-0.01 z" />
+    <!-- Bottom Base Circle -->
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M54,54.5 a2.5,2.5 0 1 0 0,-0.01 z" />
+
+    <!-- Cable Boot & Neck -->
+    <path
+        android:fillColor="#CBD5E1"
+        android:pathData="M43,62 h22 v7 h-22 z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M47,69 h14 v5 h-14 z" />
+
+    <!-- LAN Network Bus & 3 Nodes at Bottom (Cyan #38BDF8) -->
+    <!-- Horizontal Bus Line -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M26,79 h56 v2.5 h-56 z" />
+    <!-- Center connection to cable -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M52.75,74 h2.5 v5 h-2.5 z" />
+    <!-- 3 Vertical drop lines -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M26.75,81.5 h2.5 v5 h-2.5 z M52.75,81.5 h2.5 v5 h-2.5 z M78.75,81.5 h2.5 v5 h-2.5 z" />
+
+    <!-- 3 Terminal Nodes -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.5"
+        android:pathData="M28,88 a3.5,3.5 0 1 0 0,-0.01 z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.5"
+        android:pathData="M54,88 a3.5,3.5 0 1 0 0,-0.01 z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.5"
+        android:pathData="M80,88 a3.5,3.5 0 1 0 0,-0.01 z" />
+
+</vector>

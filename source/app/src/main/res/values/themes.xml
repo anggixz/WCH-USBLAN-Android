@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.CH397DriverTool" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/color_main</item>
+        <item name="colorAccent">@color/color_main</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.CH397DriverTool" parent="Base.Theme.CH397DriverTool" />
+
+    <style name="Theme.AppBlock" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/color_main</item>
+        <item name="colorAccent">@color/color_main</item>
+        <item name="actionBarStyle">@style/AppBlockActionBar</item>
+    </style>
+    <style name="AppBlockActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/color_main</item>
+        <item name="elevation">0dp</item>
+        <item name="titleTextStyle">@style/AppBlockActionBarTitle</item>
+    </style>
+
+    <style name="AppBlockActionBarTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+    </style>
+</resources>

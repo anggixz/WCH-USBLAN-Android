@@ -1,0 +1,16 @@
+package com.anggixz.wchusblan.room;
+
+import androidx.room.Database;
+import androidx.room.RoomDatabase;
+
+@Database(
+        entities = {FilteredApp.class},
+        version = 1,
+        exportSchema = false
+)
+public abstract class AppDatabase extends RoomDatabase {
+    public abstract FilteredAppDao filteredAppDao();
+
+}
+
+

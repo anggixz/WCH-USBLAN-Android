@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Primary (Modern Royal Tech Blue) -->
+    <color name="color_main">#2563EB</color>
+    <color name="color_main_dark">#1D4ED8</color>
+    <color name="color_main_light">#3B82F6</color>
+    <color name="color_main_subtle">#EFF6FF</color>
+
+    <!-- Status Colors -->
+    <color name="green">#10B981</color>
+    <color name="green_subtle">#ECFDF5</color>
+    <color name="red">#EF4444</color>
+    <color name="red_subtle">#FEF2F2</color>
+
+    <!-- Neutrals -->
+    <color name="black">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white50">#80FFFFFF</color>
+    <color name="white80">#E6FFFFFF</color>
+    <color name="fragment_background">#F8FAFC</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_border">#E2E8F0</color>
+    <color name="color_grey">#CBD5E1</color>
+
+    <!-- Button & Interaction -->
+    <color name="button_normal">#2563EB</color>
+    <color name="button_stroke">#1D4ED8</color>
+    <color name="button_disenable">#94A3B8</color>
+    <color name="text_title">#0F172A</color>
+    <color name="text_border">#E2E8F0</color>
+    <color name="bottom_tool_background">#FFFFFF</color>
+    <color name="app_block_background">#FFFFFF</color>
+    <color name="check_enable_false">#94A3B8</color>
+    <color name="color_unchecked">#CBD5E1</color>
+</resources>
